@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding:0;
+}
+ .button-container{
+display: block;
+margin: 20px;
+}
+
+.btn-search {
+  background-color: #f3c5e8; 
+  color: #581845;
+  border: 2px solid #881b67; 
+  padding: 8px 35px;
+  border-radius: 20px; 
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-plus {
+  background-color: #6a0dad; 
+  color: white;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%; 
+  font-size: 22px;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.btn-create {
+  background-color: #009952; 
+  color: white;
+  border: 2px solid #004d26; 
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #123518; 
+}
