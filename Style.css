@@ -1,11 +1,10 @@
 * {
-  margin: 0;
+  margin:0 px;
   padding:0;
+ display: block;
+ margin-bottom: 10px;
 }
- .button-container{
-display: block;
-margin: 20px;
-}
+
 
 .btn-search {
   background-color: #f3c5e8; 
