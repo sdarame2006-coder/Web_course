@@ -1,0 +1,50 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #e0f7fa;
+  padding: 15px;
+}
+
+.header {
+  background-color: green;
+  height: 80px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 200px 1fr; 
+  gap: 15px;
+  align-items: start;
+}
+
+.sidebar {
+  background-color: #5c6bc0;
+  height: 250px;
+}
+
+.content-box {
+  background-color: #ab47bc;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 15px;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  background-color: #fbc02d;
+  height: 120px;
+}
+
+.red-box {
+  background-color: #f44336;
+  height: 60px;
+}

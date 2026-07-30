@@ -1,0 +1,55 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #e0f7fa;
+  padding: 15px;
+}
+
+
+.top_nav{
+  background-color: green;
+  height: 80px;
+}
+
+
+.side_nav {
+  display: flex;
+  gap: 15px;
+}
+
+
+.main {
+  background-color: #5c6bc0;
+  width: 200px;
+  min-height: 250px;
+}
+
+
+.sub_content {
+  flex: 1;
+  background-color: #ab47bc;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.sub_content {
+  display: flex;
+  gap: 10px;
+}
+
+.sub_content {
+  flex: 1;
+  background-color: #fbc02d;
+  height: 120px;
+}
+
+
+.advertisement {
+  background-color: #f44336;
+  height: 60px;
+}
